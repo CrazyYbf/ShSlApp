@@ -1,0 +1,22 @@
+//
+//  ShSlpch.pch
+//  ShSlApp
+//
+//  Created by 易 彬锋 on 15/12/6.
+//  Copyright © 2015年 bfy. All rights reserved.
+//
+
+#ifndef ShSlpch_pch
+#define ShSlpch_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+
+
+#import "Prefiix.h"
+
+
+#endif /* ShSlpch_pch */

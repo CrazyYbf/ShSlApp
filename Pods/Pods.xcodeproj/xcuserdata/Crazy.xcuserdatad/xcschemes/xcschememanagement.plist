@@ -44,6 +44,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>RESideMenu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>hpple.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -77,7 +82,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>808C4BA4BC00A363EFEB9764DEBBACCE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>9F12FB4A63E20F601CFB2E64A65B57C1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A5BAD510F3001335B7BD1A250993ED7B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AA91579A822F5C2C6D8DC09AE3BF64EE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -87,17 +107,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B56DFE9D75D695D3E4A607852AF2B679</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>BA250BDE05647A8E5AE0B5FB0421E3CC</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F9A4F4FDEE5AC9806815F627CD29ECBE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

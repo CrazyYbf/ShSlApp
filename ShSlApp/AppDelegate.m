@@ -8,7 +8,14 @@
 
 #import "AppDelegate.h"
 
-@interface AppDelegate ()
+
+
+#import "MainTableViewController.h"
+
+#import "LeftMenuViewController.h"
+
+
+@interface AppDelegate ()<RESideMenuDelegate>
 
 @end
 
@@ -16,9 +23,72 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+
+
+    UIStoryboard *storyboard =[UIStoryboard storyboardWithName:@"Main" bundle:nil];;
+    
+    LeftMenuViewController *leftmenu = [storyboard instantiateViewControllerWithIdentifier:@"LeftMenu"];
+    
+    
+    MainTableViewController *maintableview = [storyboard instantiateViewControllerWithIdentifier:@"maintableview"];
+    
+    UINavigationController *navgaiton = [[UINavigationController alloc]initWithRootViewController:maintableview];
+    
+    
+    RESideMenu *residemenu = [[RESideMenu alloc]initWithContentViewController:navgaiton leftMenuViewController:leftmenu rightMenuViewController:nil];
+    
+    residemenu.delegate = self;
+    residemenu.panFromEdge = NO;
+    residemenu.fadeMenuView = NO;
+    residemenu.parallaxEnabled = NO;
+    residemenu.scaleBackgroundImageView = NO;
+    residemenu.scaleContentView = NO;
+    residemenu.scaleMenuView = NO;
+        
+    [self.window setRootViewController:residemenu];
+    
+    
+    [self.window setBackgroundColor:[UIColor whiteColor]];
+    
+    [self.window makeKeyAndVisible];
+
+    
     return YES;
 }
+
++(AppDelegate*)ShareDelegate{
+    
+    return  (AppDelegate*)[UIApplication sharedApplication].delegate;
+    
+}
+
+
+
+#pragma mark - RESideMenuDelegate
+
+- (void)sideMenu:(RESideMenu *)sideMenu didShowMenuViewController:(UIViewController *)menuViewController
+{
+   
+}
+
+- (void)sideMenu:(RESideMenu *)sideMenu didHideMenuViewController:(UIViewController *)menuViewController
+{
+   
+}
+
+- (void)didTriggerShowSideMenu:(RESideMenu *)sideMenu
+{
+    
+}
+
+- (void)didTriggerHideSideMenu:(RESideMenu *)sideMenu
+{
+
+}
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
