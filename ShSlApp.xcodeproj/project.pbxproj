@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2D1688401C14746800E4177F /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D16883F1C14746800E4177F /* LeftMenuViewController.m */; };
 		2D1688441C148A4500E4177F /* NSDate+DatetoString.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1688431C148A4500E4177F /* NSDate+DatetoString.m */; };
+		2D3CAAB51C149A4000DE6522 /* UIButton+Setbutton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3CAAB41C149A4000DE6522 /* UIButton+Setbutton.m */; };
 		2DD5F7951C1324A4007D292B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD5F7941C1324A4007D292B /* main.m */; };
 		2DD5F7981C1324A4007D292B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD5F7971C1324A4007D292B /* AppDelegate.m */; };
 		2DD5F79E1C1324A4007D292B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD5F79C1C1324A4007D292B /* Main.storyboard */; };
@@ -24,6 +25,8 @@
 		2D16883F1C14746800E4177F /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
 		2D1688421C148A4500E4177F /* NSDate+DatetoString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DatetoString.h"; sourceTree = "<group>"; };
 		2D1688431C148A4500E4177F /* NSDate+DatetoString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DatetoString.m"; sourceTree = "<group>"; };
+		2D3CAAB31C149A4000DE6522 /* UIButton+Setbutton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Setbutton.h"; sourceTree = "<group>"; };
+		2D3CAAB41C149A4000DE6522 /* UIButton+Setbutton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Setbutton.m"; sourceTree = "<group>"; };
 		2DD5F7901C1324A4007D292B /* ShSlApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShSlApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD5F7941C1324A4007D292B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2DD5F7961C1324A4007D292B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 			children = (
 				2D1688421C148A4500E4177F /* NSDate+DatetoString.h */,
 				2D1688431C148A4500E4177F /* NSDate+DatetoString.m */,
+				2D3CAAB31C149A4000DE6522 /* UIButton+Setbutton.h */,
+				2D3CAAB41C149A4000DE6522 /* UIButton+Setbutton.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 			files = (
 				2DD5F7B21C147063007D292B /* MainTableViewController.m in Sources */,
 				2DD5F7981C1324A4007D292B /* AppDelegate.m in Sources */,
+				2D3CAAB51C149A4000DE6522 /* UIButton+Setbutton.m in Sources */,
 				2D1688401C14746800E4177F /* LeftMenuViewController.m in Sources */,
 				2DD5F7951C1324A4007D292B /* main.m in Sources */,
 				2D1688441C148A4500E4177F /* NSDate+DatetoString.m in Sources */,

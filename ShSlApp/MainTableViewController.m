@@ -10,6 +10,7 @@
 
 #import "NSDate+DatetoString.h"
 
+#import "UIButton+Setbutton.h"
 
 
 @interface MainTableViewController ()
@@ -40,12 +41,7 @@
     
     [button addTarget:self action:@selector(leftbuttonclick:) forControlEvents:UIControlEventTouchUpInside];
     
-    button.frame = CGRectMake(0, 0, 60, 30);
-    
-    [button setTitle:@"左边" forState:UIControlStateNormal];
-    
-    [button setTitleColor:[UIColor purpleColor] forState:UIControlStateNormal];
-
+    [button setbutton];
     
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:button];
     
